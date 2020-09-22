@@ -1,4 +1,4 @@
-package com.moxuan.gupao.study;
+package com.moxuan.gupao.study.demo1;
 
 /**
  * @ProjectName dxyt-mdm

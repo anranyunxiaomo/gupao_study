@@ -1,6 +1,5 @@
-package com.moxuan.gupao.study;
+package com.moxuan.gupao.study.demo1;
 
-import java.lang.annotation.Target;
 import java.util.concurrent.TimeUnit;
 
 /**
