@@ -1,0 +1,27 @@
+package com.moxuan.gupao.study.demo4;
+
+/**
+ * @ProjectName dxyt-mdm
+ * @ClassName MagicHash
+ * @Author zhangkai
+ * @Description
+ * @Date 2020/10/3 3:33 下午
+ */
+public class MagicHash {
+    private static final int HASH_INCREMENT = 0x61c88647;
+
+    public static void main(String[] args) {
+        magicHash(16);
+        magicHash(32);
+    }
+
+    private static void magicHash(int size) {
+        int hashCode = 0;
+        for (int i = 0; i < size; i++) {
+            hashCode = i * HASH_INCREMENT + HASH_INCREMENT;
+            System.out.print((hashCode & (size - 1)) + " ");
+        }
+        System.out.println();
+
+    }
+}
