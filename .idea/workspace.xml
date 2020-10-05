@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65882431-ed3b-47ec-84bf-8d2dee9319f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo2/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo2/LockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo2/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo3/DLCClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo3/VolatileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo6/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo6/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo6/TestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gupao_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gupao_study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo2/ClassLayoutDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo2/ClassLayoutDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo4/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo4/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo4/TransFerAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/moxuan/gupao/study/demo4/TransFerAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,11 +55,10 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
-  <component name="RunManager" selected="Application.VolatileDemo">
-    <configuration name="ClassLayoutDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.moxuan.gupao.study.demo2.ClassLayoutDemo" />
+  <component name="RunManager" selected="Application.TestDemo">
+    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.moxuan.gupao.study.demo2.LockDemo" />
       <module name="gupao_study" />
-      <option name="VM_PARAMETERS" value="-XX:+UseBiasedLocking -XX:BiasedLockingStartupDelay=0" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.moxuan.gupao.study.demo2.*" />
@@ -76,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.moxuan.gupao.study.demo2.LockDemo" />
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.moxuan.gupao.study.demo6.TestDemo" />
       <module name="gupao_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.moxuan.gupao.study.demo2.*" />
+          <option name="PATTERN" value="com.moxuan.gupao.study.demo6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +95,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransFerAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.moxuan.gupao.study.demo4.TransFerAccount" />
+      <module name="gupao_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moxuan.gupao.study.demo4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.moxuan.gupao.study.demo3.VolatileDemo" />
       <module name="gupao_study" />
@@ -115,25 +121,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.TransFerAccount" />
         <item itemvalue="Application.VolatileDemo" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.LockDemo" />
-        <item itemvalue="Application.ClassLayoutDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -147,12 +152,25 @@
       <updated>1600515474965</updated>
       <workItem from="1600515476694" duration="3000" />
       <workItem from="1600837110397" duration="2483000" />
-      <workItem from="1601618708355" duration="8319000" />
+      <workItem from="1601618708355" duration="8392000" />
+      <workItem from="1601880596238" duration="5016000" />
     </task>
+    <task id="LOCAL-00001" summary="合并学习代码">
+      <created>1601793872840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601793872840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="合并学习代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并学习代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601619495914">
@@ -160,53 +178,68 @@
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600839585244" />
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601619495914" />
-    <state x="2685" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1601621455241">
+    <state x="2685" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1601881406122">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601621455241" />
-    <state width="1877" height="416" key="GridCell.Tab.0.bottom" timestamp="1601624773454">
+    <state x="2685" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601881406122" />
+    <state x="2456" y="66" key="CommitChangelistDialog2" timestamp="1601793872063">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2456" y="66" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601793872063" />
+    <state width="1877" height="540" key="GridCell.Tab.0.bottom" timestamp="1601882444234">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="370" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600841997567" />
-    <state width="1877" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601624773454" />
-    <state width="1877" height="416" key="GridCell.Tab.0.center" timestamp="1601624773454">
+    <state width="1877" height="540" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601882444234" />
+    <state width="1877" height="540" key="GridCell.Tab.0.center" timestamp="1601882444234">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="370" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600841997566" />
-    <state width="1877" height="416" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601624773454" />
-    <state width="1877" height="416" key="GridCell.Tab.0.left" timestamp="1601624773453">
+    <state width="1877" height="540" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601882444234" />
+    <state width="1877" height="540" key="GridCell.Tab.0.left" timestamp="1601882444234">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="370" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600841997566" />
-    <state width="1877" height="416" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601624773453" />
-    <state width="1877" height="416" key="GridCell.Tab.0.right" timestamp="1601624773454">
+    <state width="1877" height="540" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601882444234" />
+    <state width="1877" height="540" key="GridCell.Tab.0.right" timestamp="1601882444234">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="370" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600841997567" />
-    <state width="1877" height="416" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601624773454" />
-    <state width="1877" height="432" key="GridCell.Tab.1.bottom" timestamp="1601622267455">
+    <state width="1877" height="540" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601882444234" />
+    <state width="1877" height="540" key="GridCell.Tab.1.bottom" timestamp="1601882444074">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="495" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600841997562" />
-    <state width="1877" height="432" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601622267455" />
-    <state width="1877" height="432" key="GridCell.Tab.1.center" timestamp="1601622267455">
+    <state width="1877" height="540" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601882444074" />
+    <state width="1877" height="540" key="GridCell.Tab.1.center" timestamp="1601882444074">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="495" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600841997562" />
-    <state width="1877" height="432" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601622267455" />
-    <state width="1877" height="432" key="GridCell.Tab.1.left" timestamp="1601622267455">
+    <state width="1877" height="540" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601882444074" />
+    <state width="1877" height="540" key="GridCell.Tab.1.left" timestamp="1601882444074">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="495" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600841997562" />
-    <state width="1877" height="432" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601622267455" />
-    <state width="1877" height="432" key="GridCell.Tab.1.right" timestamp="1601622267455">
+    <state width="1877" height="540" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601882444074" />
+    <state width="1877" height="540" key="GridCell.Tab.1.right" timestamp="1601882444074">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="495" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600841997562" />
-    <state width="1877" height="432" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601622267455" />
-    <state x="2674" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601789245922">
+    <state width="1877" height="540" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601882444074" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601793893405">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2674" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601789245922" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601793893405" />
+    <state x="2674" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601888621954">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2674" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1601888621953" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
   </component>
 </project>

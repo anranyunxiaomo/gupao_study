@@ -1,7 +1,5 @@
 package com.moxuan.gupao.study.demo4;
 
-import com.sun.tools.corba.se.idl.constExpr.Or;
-import sun.applet.Main;
 
 /**
  * @ProjectName dxyt-mdm
@@ -62,9 +60,8 @@ public class TransFerAccount implements Runnable{
         Allocator allocator = new Allocator();
         Thread t1 = new Thread(new TransFerAccount(formAccount, toAccount, 10,allocator));
         Thread t2 = new Thread(new TransFerAccount(toAccount, formAccount, 30,allocator));
-        t1.start();
         t2.start();
-
+        t1.start();
     }
 
 
